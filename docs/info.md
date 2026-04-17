@@ -1,20 +1,10 @@
-<!---
+# Mealy FSM Sequence Detector
 
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
+## Description
+This project implements a Mealy FSM to detect the sequence 101.
 
 ## How it works
-
-Explain how your project works
+The FSM reads input bits and transitions between states. When the sequence 101 is detected, the output becomes 1.
 
 ## How to test
-
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Apply clock, reset, and input sequence 101. Output becomes 1 when sequence is detected.
