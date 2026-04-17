@@ -3,12 +3,11 @@ yaml_version: 6
 project:
   title: "Mealy FSM Sequence Detector"
   author: "Sathi"
+  discord: "sateesh_1010"
   description: "Hardware implementation of a Mealy FSM to detect sequence 101, optimized for low-area and low-power chip design."
-
   language: "Verilog"
   clock_hz: 100000000
   tiles: "1x1"
-
   top_module: "tt_um_sathi_seq101"
 
   source_files:
