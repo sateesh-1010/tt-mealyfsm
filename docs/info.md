@@ -1,10 +1,5 @@
-# Mealy FSM Sequence Detector
-
-## Description
-This project implements a Mealy FSM to detect the sequence 101.
-
 ## How it works
-The FSM reads input bits and transitions through states. When the sequence 101 is detected, the output becomes 1.
+FSM detects sequence 101 using state transitions.
 
 ## How to test
-Apply clock, reset, and input sequence 101. Output becomes 1 when sequence is detected.
+Apply input 101 with clock and reset. Output becomes 1.
